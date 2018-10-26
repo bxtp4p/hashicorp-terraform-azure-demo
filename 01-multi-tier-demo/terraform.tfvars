@@ -20,9 +20,9 @@ lb_pip_dns_name = "tfdemo"
 db_mysql_admin_login      = "TFDBAdmin"
 db_mysql_admin_password   = "T3rr4f0rm" # Should be in Vault
 db_name                   = "petclinic"
-db_ip_allowed_start       = "107.213.15.1"
-db_ip_allowed_end         = "107.213.15.255"
+db_ip_allowed_start       = "" 
+db_ip_allowed_end         = ""
 db_init_db_script         = "../99-app-assets/db/config.sh"
 
 # Network Security Group Variable Values
-nsg_ssh_address_prefix = "107.213.15.0/24"
+nsg_ssh_address_prefix = "" #Use Appropriate CIDR
